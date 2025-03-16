@@ -1,0 +1,82 @@
+/* Main Hero Container */
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Outer Wrapper */
+.hero-wrapper {
+  width: 90%;
+  max-width: 1200px;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Inner Section */
+.hero-section {
+  display: flex;
+  position: relative;
+  height: 500px;
+}
+
+/* Left Content (Text) */
+.hero-text {
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.hero-tag {
+  color: #68a357;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.hero-title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.hero-desc {
+  color: #666;
+  font-size: 16px;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* Buttons */
+.hero-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background: #333;
+}
+
+/* Right Content (Image) */
+.hero-image {
+  width: 50%;
+  background: url('/assets/water-bottle.jpg') no-repeat center center/cover;
+}

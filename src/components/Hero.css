@@ -1,0 +1,21 @@
+/* Default Pagination Dots */
+.swiper-pagination-bullet {
+  background-color: gray !important;  /* Default color */
+  width: 10px !important;   /* Default size */
+  height: 10px !important;
+  opacity: 0.6;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Active Pagination Dot */
+.swiper-pagination-bullet-active {
+  background-color: red !important;  /* Active dot color */
+  width: 12px !important;    /* Bigger size for active dot */
+  height: 12px !important;
+  opacity: 1;
+}
+
+/* Dots Position */
+.swiper-pagination {
+  bottom: 20px !important;
+}
