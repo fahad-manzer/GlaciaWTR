@@ -48,7 +48,7 @@ const features = [
   {
     icon: "🍾",
     title: "Premium Bottles",
-    description: "Our water bottles are made from high-quality glass, durable and safe to use.",
+    description: "Our water bottles are made from high-quality, durable and safe to use.",
   },
 ];
 

@@ -7,6 +7,7 @@ import HowToOrder from '../components/HowToOrder';
 import BottleCarousel from '../components/BottleCarousel';
 import TestimonialSlider from '../components/TestimonialSlider';
 import NutritionRichWater from '../components/NutritionRichWater';
+import About from "../pages/About"
 
 const Home = () => {
   return (
@@ -19,8 +20,9 @@ const Home = () => {
       <Hero />
       <HowToOrder/>
       <NutritionRichWater/>
-      <BottleCarousel/>
-      <TestimonialSlider/>
+      {/* <BottleCarousel/> */}
+      {/* <TestimonialSlider/> */}
+      <About/>
     </>
 
   );

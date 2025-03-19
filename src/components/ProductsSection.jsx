@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Typography, Grid } from "@mui/material";
 import product1 from "../assets/product1.jpg"; // Replace with actual paths
 import product2 from "../assets/product1.jpg";
-import product3 from "../assets/product1.jpg";
+import product3 from "../assets/freepik__upload__67092.png";
 
 const ProductsSection = () => {
   return (
@@ -12,11 +12,11 @@ const ProductsSection = () => {
         | HOW TO ORDER
       </Typography>
       <Typography variant="h4" sx={{ fontWeight: "bold", color: "black", mt: 1 }}>
-        Watergram Products
+        Glacia WTR Products
       </Typography>
 
       <Typography variant="body1" sx={{ color: "gray", mt: 2, maxWidth: "800px", mx: "auto" }}>
-        Watergram is not just a brand, it's a promise of quality and exceptional service. We take pride in delivering 
+        Glacia WTR is not just a brand, it's a promise of quality and exceptional service. We take pride in delivering 
         the best quality water in our bottles, ensuring that each bottle meets the highest standards of taste, purity, and elegance.
       </Typography>
 
@@ -27,14 +27,14 @@ const ProductsSection = () => {
         </Grid>
         <Grid item xs={12} md={6} sx={{ textAlign: "left" }}>
           <Typography variant="subtitle2" sx={{ color: "green"}}>
-            | WATERGRAM
+            | Glacia WTR
           </Typography>
           <Typography variant="h4" sx={{ fontWeight: "bold", color: "black" }}>
             Customized Bottle
           </Typography>
           <Typography variant="body2" sx={{ color: "gray", mt: 2 }}>
-            WaterGram takes personalization to a whole new level. We offer the option to customize the bottles with 
-            your own branding, making them perfect for corporate events, special occasions, or exclusive gifts. With Watergram, 
+            Glacia WTR takes personalization to a whole new level. We offer the option to customize the bottles with 
+            your own branding, making them perfect for corporate events, special occasions, or exclusive gifts. With Glacia WTR, 
             you can showcase your brand with a personal touch while providing your guests with a luxurious and memorable experience.
           </Typography>
         </Grid>
@@ -44,7 +44,7 @@ const ProductsSection = () => {
       <Grid container spacing={4} alignItems="center" sx={{ mt: 6 }}>
         <Grid item xs={12} md={6} sx={{ textAlign: "left" }}>
           <Typography variant="subtitle2" sx={{ color: "green"}}>
-            | WATERGRAM
+            | Glacia WTR
           </Typography>
           <Typography variant="h4" sx={{ fontWeight: "bold", color: "black" }}>
             Premium Glass Bottle
@@ -67,7 +67,7 @@ const ProductsSection = () => {
         </Grid>
         <Grid item xs={12} md={6} sx={{ textAlign: "left" }}>
           <Typography variant="subtitle2" sx={{ color: "green"}}>
-            | WATERGRAM
+            | Glacia WTR
           </Typography>
           <Typography variant="h4" sx={{ fontWeight: "bold", color: "black" }}>
             Alkaline Bottles

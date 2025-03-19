@@ -24,7 +24,7 @@ const testimonials = [
     logo: img,
     name: "Adam's Ale",
     role: "BAR AND RESTAURANT",
-    feedback: "Watergram’s team is fantastic to work with, ensuring perfection in every detail. Highly recommended for café owners looking to make a lasting impression.",
+    feedback: "Glacia WTR team is fantastic to work with, ensuring perfection in every detail. Highly recommended for café owners looking to make a lasting impression.",
     rating: 5,
   },
   {

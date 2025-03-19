@@ -2,6 +2,7 @@ import React from "react";
 import { Card, CardContent, Typography, Box, Button } from "@mui/material";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import img from "../assets/Costumization-lebal.png"
+import img3 from "../assets/freepik__upload__67092.png"
 
 const steps = [
     {
@@ -19,8 +20,8 @@ const steps = [
     {
         id: 3,
         title: "Place Your Order",
-        description: "Get your custom bottled water with Watergram delivered at your doorsteps.",
-        image: img,
+        description: "Get your custom bottled water with Glacia WTR delivered at your doorsteps.",
+        image: img3,
     },
 ];
 
