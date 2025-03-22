@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Typography, Grid } from "@mui/material";
-import bottle from "../assets/DSC16882.png";
+import bottle from "../assets/bottle for websiteP.png";
 import icon1 from "../assets/icon1.png";
 import icon2 from "../assets/icon2.png";
 import icon3 from "../assets/icon3.png";
@@ -8,7 +8,7 @@ import icon4 from "../assets/icon4.png";
 
 const NutritionRichWater = () => {
   return (
-    <Box sx={{ textAlign: "center", py: 8, px: { xs: 2, md: 8 },marginLeft:{md:"150px"},marginRight:{md:"150px"} }}>
+    <Box sx={{ textAlign: "center", py: 8, px: { xs: 2, md: 8 } }}>
       {/* Header */}
       <Typography variant="subtitle1" sx={{ color: "green", fontWeight: "bold" }}>
         WHAT WE OFFER
