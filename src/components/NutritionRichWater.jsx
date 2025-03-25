@@ -10,8 +10,8 @@ const NutritionRichWater = () => {
   return (
     <Box sx={{ textAlign: "center", py: 8, px: { xs: 2, md: 8 } }}>
       {/* Header */}
-      <Typography variant="subtitle1" sx={{ color: "green", fontWeight: "bold" }}>
-        WHAT WE OFFER
+      <Typography variant="subtitle1" sx={{ color: "#0077be"}}>
+        | WHAT WE OFFER
       </Typography>
       <Typography variant="h4" sx={{ fontWeight: "bold", color: "black", mt: 1 }}>
         NUTRITION RICH WATER

@@ -29,7 +29,7 @@ const Footer = () => {
             <IconButton sx={{ backgroundColor: "#222", color: "white", mr: 1 }}>
               <FacebookIcon />
             </IconButton>
-            <IconButton sx={{ backgroundColor: "#222", color: "white" }}>
+            <IconButton href="https://www.instagram.com/glacia_wtr?igsh=dXYxZ3VnZ2drYmY3" target="_blank" sx={{ backgroundColor: "#222", color: "white" }}>
               <InstagramIcon />
             </IconButton>
           </Box>

@@ -28,7 +28,7 @@ const steps = [
 const HowToOrder = () => {
     return (
         <Box sx={{ textAlign: "center", py: 8, px: 3 }}>
-            <Typography variant="subtitle1" sx={{ color: "green" }}>
+            <Typography variant="subtitle1" sx={{ color: "#0077be" }}>
                 | GET STARTED
             </Typography>
             <Typography variant="h4" sx={{ fontWeight: "bold", color: "black", mt: 1 }}>
