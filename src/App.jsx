@@ -17,6 +17,7 @@ import "./index.css";
 // import ModelViewer from "./components/ModelViewer";
 import WaterPouringScene from "./components/WaterPouringScene";
 import Collections from "./pages/Collections";
+import ScrollToTop from "./components/ScrollToTop"
 // import Bottle3D from "./components/Bottle3D";
 
 function App() {
@@ -50,8 +51,9 @@ function App() {
         <Router>
           {/* <Preloader /> */}
           <Navbar />
+          <ScrollToTop />
           <motion.div
-            className="container mx-auto p-4"
+            // className=""
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}

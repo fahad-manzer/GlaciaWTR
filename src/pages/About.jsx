@@ -19,12 +19,12 @@ const About = () => {
         textAlign: "center",
         // borderRadius: "12px",
         // boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
-        paddingBottom:"100px"
+        paddingBottom: "100px"
       }}
       initial="initial"
       animate="animate"
       variants={pageTransition}
-      
+
     >
       {/* Page Title */}
       <motion.h1
@@ -69,7 +69,19 @@ const About = () => {
           Our Commitment
         </motion.h2>
 
-        <List sx={{ maxWidth: "600px", margin: "auto", textAlign: "left", fontSize: "1.1rem", color: "#333" }}>
+        <List
+          sx={{
+            maxWidth: "600px",
+            margin: "auto",
+            textAlign: "center", // Keeping only one textAlign
+            fontSize: "1.1rem",
+            color: "#333",
+            display: "flex",
+            alignItems: "center", // Fixed typo
+            flexDirection: "column",
+          }}
+        >
+
           {[
             "100% Natural Mineral Water",
             "Advanced Filtration & Purification",

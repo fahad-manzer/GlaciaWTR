@@ -119,7 +119,7 @@ const Hero = () => {
               <Typography
                 variant="subtitle2"
                 sx={{
-                  color: "#68a357",
+                  color: "#0077be",
                   textTransform: "uppercase",
                   fontSize: { xs: "10px", sm: "14px", md: "18px" },
                 }}

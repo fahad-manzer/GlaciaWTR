@@ -8,7 +8,7 @@ const ProductsSection = () => {
   return (
     <Box sx={{ textAlign: "center", py: 8, px: { xs: 2, md: 8 },marginLeft:{md:"150px"},marginRight:{md:"150px"}  }}>
       {/* Header */}
-      <Typography variant="subtitle1" sx={{ color: "green" }}>
+      <Typography variant="subtitle1" sx={{ color: "#0077be" }}>
         | HOW TO ORDER
       </Typography>
       <Typography variant="h4" sx={{ fontWeight: "bold", color: "black", mt: 1 }}>
@@ -26,7 +26,7 @@ const ProductsSection = () => {
           <img src={product1} alt="Customized Bottle" style={{ width: "100%" }} />
         </Grid>
         <Grid item xs={12} md={6} sx={{ textAlign: "left" }}>
-          <Typography variant="subtitle2" sx={{ color: "green"}}>
+          <Typography variant="subtitle2" sx={{ color: "#0077be"}}>
             | Glacia WTR
           </Typography>
           <Typography variant="h4" sx={{ fontWeight: "bold", color: "black" }}>
@@ -43,7 +43,7 @@ const ProductsSection = () => {
       {/* Product 2 */}
       <Grid container spacing={4} alignItems="center" sx={{ mt: 6 }}>
         <Grid item xs={12} md={6} sx={{ textAlign: "left" }}>
-          <Typography variant="subtitle2" sx={{ color: "green"}}>
+          <Typography variant="subtitle2" sx={{ color: "#0077be"}}>
             | Glacia WTR
           </Typography>
           <Typography variant="h4" sx={{ fontWeight: "bold", color: "black" }}>
@@ -66,7 +66,7 @@ const ProductsSection = () => {
           <img src={product3} alt="Alkaline Bottles" style={{ width: "100%" }} />
         </Grid>
         <Grid item xs={12} md={6} sx={{ textAlign: "left" }}>
-          <Typography variant="subtitle2" sx={{ color: "green"}}>
+          <Typography variant="subtitle2" sx={{ color: "#0077be"}}>
             | Glacia WTR
           </Typography>
           <Typography variant="h4" sx={{ fontWeight: "bold", color: "black" }}>

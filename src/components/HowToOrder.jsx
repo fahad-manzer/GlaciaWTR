@@ -76,7 +76,7 @@ const HowToOrder = () => {
                         >
                             <Box
                                 sx={{
-                                    backgroundColor: "green",
+                                    backgroundColor: "#0077be",
                                     color: "white",
                                     fontSize: "18px",
                                     padding: "10px 15px",
