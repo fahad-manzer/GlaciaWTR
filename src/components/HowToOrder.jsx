@@ -1,7 +1,8 @@
 import React from "react";
 import { Card, CardContent, Typography, Box, Button } from "@mui/material";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import img from "../assets/Costumization-lebal.png"
+import img2 from "../assets/Costumization-lebal.png"
+import img1 from "../assets/submit_a_quoat.png"
 import img3 from "../assets/freepik__upload__67092.png"
 
 const steps = [
@@ -9,13 +10,13 @@ const steps = [
         id: 1,
         title: "Submit A Quote",
         description: "Tell us about your brand and specify your needs in our convenient inquiry form.",
-        image: img,
+        image: img1,
     },
     {
         id: 2,
         title: "Approve Designs",
         description: "Get the best design options for your brand and finalize pricing, label, and bottle.",
-        image: img,
+        image: img2,
     },
     {
         id: 3,
@@ -53,7 +54,7 @@ const HowToOrder = () => {
                             sx={{
                                 width: 330,
                                 height: 330,
-                                borderRadius: "50%",
+                                // borderRadius: "50%",
                                 overflow: "hidden",
                                 display: "flex",
                                 alignItems: "center",

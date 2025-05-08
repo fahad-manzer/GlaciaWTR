@@ -12,7 +12,7 @@ import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-// import Preloader from "./components/Preloader";
+import Preloader from "./components/Preloader";
 import "./index.css";
 // import ModelViewer from "./components/ModelViewer";
 import WaterPouringScene from "./components/WaterPouringScene";
@@ -21,35 +21,35 @@ import ScrollToTop from "./components/ScrollToTop"
 // import Bottle3D from "./components/Bottle3D";
 
 function App() {
-  // const rippleContainer = useRef(null);
+  const rippleContainer = useRef(null);
 
-  // useEffect(() => {
-  //   const handleClick = (e) => {
-  //     if (!rippleContainer.current) return;
-  //     const ripple = document.createElement("div");
-  //     ripple.className = "ripple";
-  //     rippleContainer.current.appendChild(ripple);
+  useEffect(() => {
+    const handleClick = (e) => {
+      if (!rippleContainer.current) return;
+      const ripple = document.createElement("div");
+      ripple.className = "ripple";
+      rippleContainer.current.appendChild(ripple);
 
-  //     ripple.style.left = `${e.clientX}px`;
-  //     ripple.style.top = `${e.clientY}px`;
+      ripple.style.left = `${e.clientX}px`;
+      ripple.style.top = `${e.clientY}px`;
 
-  //     ripple.style.animation = "ripple-effect 0.6s linear";
+      ripple.style.animation = "ripple-effect 0.6s linear";
 
-  //     ripple.addEventListener("animationend", () => {
-  //       ripple.remove();
-  //     });
-  //   };
+      ripple.addEventListener("animationend", () => {
+        ripple.remove();
+      });
+    };
 
-  //   document.addEventListener("click", handleClick);
-  //   return () => document.removeEventListener("click", handleClick);
-  // }, []);
+    document.addEventListener("click", handleClick);
+    return () => document.removeEventListener("click", handleClick);
+  }, []);
 
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       {/* <div ref={rippleContainer} className="ripple-container"> */}
         <Router>
-          {/* <Preloader /> */}
+          <Preloader />
           <Navbar />
           <ScrollToTop />
           <motion.div

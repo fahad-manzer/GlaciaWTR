@@ -6,7 +6,7 @@ const Preloader = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 2500); // Hide after 3s
+    setTimeout(() => setLoading(false), 1500); // Hide after 2s
   }, []);
 
   if (!loading) return null; // Remove preloader when loading is done

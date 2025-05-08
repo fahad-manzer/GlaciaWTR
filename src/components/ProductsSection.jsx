@@ -1,8 +1,8 @@
 import React from "react";
 import { Box, Typography, Grid } from "@mui/material";
-import product1 from "../assets/product1.jpg"; // Replace with actual paths
-import product2 from "../assets/product1.jpg";
-import product3 from "../assets/freepik__upload__67092.png";
+import product1 from "../assets/19085946_v1017-62.jpg"; // Replace with actual paths
+import product2 from "../assets/pet-plastic-bottle-764.jpg";
+import product3 from "../assets/alkaline-water.jpg";
 
 const ProductsSection = () => {
   return (
@@ -47,7 +47,7 @@ const ProductsSection = () => {
             | Glacia WTR
           </Typography>
           <Typography variant="h4" sx={{ fontWeight: "bold", color: "black" }}>
-            Premium Glass Bottle
+            Premium Bottle
           </Typography>
           <Typography variant="body2" sx={{ color: "gray", mt: 2 }}>
             Experience the fusion of health and luxury with our premium glass bottles. Each bottle is meticulously 
