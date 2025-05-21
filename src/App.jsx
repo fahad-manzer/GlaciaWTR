@@ -18,6 +18,7 @@ import "./index.css";
 import WaterPouringScene from "./components/WaterPouringScene";
 import Collections from "./pages/Collections";
 import ScrollToTop from "./components/ScrollToTop"
+import PageNotFound from "./pages/PageNotFound";
 // import Bottle3D from "./components/Bottle3D";
 
 function App() {
@@ -49,9 +50,9 @@ function App() {
       <CssBaseline />
       {/* <div ref={rippleContainer} className="ripple-container"> */}
         <Router>
-          <Preloader />
-          <Navbar />
-          <ScrollToTop />
+          {/* <Preloader /> */}
+          {/* <Navbar /> */}
+          {/* <ScrollToTop /> */}
           <motion.div
             // className=""
             initial={{ opacity: 0 }}
@@ -60,17 +61,19 @@ function App() {
             transition={{ duration: 0.5 }}
           >
             <Routes>
-              <Route path="/" element={<Home />} />
+              {/* <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/products" element={<Products />} />
               <Route path="/bulk-order" element={<BulkOrder />} />
               <Route path="/collection" element={<Collections />} />
-              <Route path="/contact" element={<Contact />} />
+              <Route path="/contact" element={<Contact />} /> */}
               {/* <Route path="/customization" element={<Bottle3D />} /> */}
-              <Route path="/abc" element={<WaterPouringScene />} />
+              {/* <Route path="/abc" element={<WaterPouringScene />} /> */}
+              {/* <Route path="/" element={<Home />} /> */}
+              <Route path="*" element={<PageNotFound />} />
             </Routes>
           </motion.div>
-          <Footer />
+          {/* <Footer /> */}
         </Router>
       {/* </div> */}
     </ThemeProvider>
